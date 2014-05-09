@@ -1,11 +1,11 @@
 import logging
-from main.risk.bot import RandomBot, BetterReinforcingBot, BestReinforcingBot, BetterMovingArmiesAfterAttackBot
-from main.risk.game import Player, Game
-from main.risk.moves import EndAttackMove, AttackMove
-from random import shuffle
-from main.risk.setup import Setup
 import time
-from main.risk.visualization import draw_board
+
+from bot import RandomBot, BestReinforcingBot
+from setup import Setup
+from visualization import draw_board
+from game import Player, Game
+
 
 __author__ = 'art'
 

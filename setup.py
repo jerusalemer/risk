@@ -1,7 +1,7 @@
 from random import shuffle
 from random import randint
 import logging
-from main.risk.game import Board
+from game import Board
 
 __author__ = 'art'
 

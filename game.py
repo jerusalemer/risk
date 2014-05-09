@@ -1,8 +1,10 @@
 __author__ = 'art'
 
-from main.risk.moves import EndAttackMove, AttackMove
 from random import shuffle
 import logging
+
+from moves import EndAttackMove
+
 
 logger = logging.getLogger("risk")
 

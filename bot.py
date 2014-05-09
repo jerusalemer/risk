@@ -1,7 +1,9 @@
 from copy import *
-from main.risk.moves import EndAttackMove, AttackMove
 from operator import attrgetter
 from random import randint
+
+from moves import EndAttackMove, AttackMove
+
 
 __author__ = 'art'
 
