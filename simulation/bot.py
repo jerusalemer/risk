@@ -2,7 +2,7 @@ from copy import *
 from operator import attrgetter
 from random import randint
 
-from moves import EndAttackMove, AttackMove
+from game.moves import EndAttackMove, AttackMove
 
 
 __author__ = 'art'
